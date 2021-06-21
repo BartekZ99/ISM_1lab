@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Lab 1</string>
+    <string name="gui_imie">Imię:</string>
+    <string name="text_imie">Wpisz imię</string>
+    <string name="gui_nazwisko">Nazwisko:</string>
+    <string name="text_nazwisko">Wpisz nazwisko</string>
+    <string name="gui_liczbaOcen">Liczba ocen:</string>
+    <string name="text_liczbaOcen">Wpisz liczbę ocen (5 - 15)</string>
+    <string name="error_imie">Imię nie może być puste!</string>
+    <string name="error_nazwisko">Nazwisko nie może być puste!</string>
+    <string name="error_liczbaOcen">Musi to być liczba z zakresu [5; 15]!</string>
+    <string name="button_oceny">OCENY</string>
+    <string name="lab_oceny">Lab 1 - OCENY</string>
+    <string name="recycler_przedmioty">Lista przedmiotów</string>
+    <string name="przycisk_oblicz">Oblicz średnią</string>
+    <string name="twojaSrednia">Twoja średnia to </string>
+    <string name="przycisk_koniec_zdal">Super :)</string>
+    <string name="przycisk_koniec_nieZdal">Tym razem mi nie poszło</string>
+    <string name="tost_exit_nie_poszlo">Wysyłam podanie o zaliczenie warunkowe</string>
+    <string name="tost_exit_poszlo">Gratulacje! Otrzymujesz zaliczenie!</string>
+
+
+    <string-array name="tablica_ocen">
+        <item>Matematyka</item>
+        <item>Fizyka</item>
+        <item>Polski</item>
+        <item>Angielski</item>
+        <item>Geografia</item>
+        <item>WF</item>
+        <item>Historia</item>
+        <item>WOS</item>
+        <item>Technika</item>
+        <item>Elektronika</item>
+        <item>Hiszpański</item>
+        <item>Niemiecki</item>
+        <item>Programowanie</item>
+        <item>Bazy danych</item>
+        <item>Projektowe</item>
+    </string-array>
+
+</resources>

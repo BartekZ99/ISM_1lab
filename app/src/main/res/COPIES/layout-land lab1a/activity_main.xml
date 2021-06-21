@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gui_imie"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/gui_imie"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <EditText
+                android:id="@+id/gui_enterName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints="@string/text_imie"
+                android:ems="10"
+                android:hint="@string/text_imie"
+                android:inputType="textPersonName"
+                android:singleLine="false"
+                android:textColor="#000000"
+                android:textColorHint="#959595"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gui_nazwisko"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/gui_nazwisko"
+                android:textColor="#000000"
+                android:textSize="22sp"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <EditText
+                android:id="@+id/gui_enterSurname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints="@string/text_nazwisko"
+                android:ems="10"
+                android:hint="@string/text_nazwisko"
+                android:inputType="textPersonName"
+                android:textColor="#000000"
+                android:textColorHint="#959595"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gui_liczbaOcen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/gui_liczbaOcen"
+                android:textColor="#000000"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/gui_enterGradeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autofillHints="@string/text_liczbaOcen"
+                android:ems="10"
+                android:hint="@string/text_liczbaOcen"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#959595"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_oceny"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF9900"
+            android:text="@string/button_oceny"
+            android:textColor="#111111"
+            android:visibility="invisible" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
